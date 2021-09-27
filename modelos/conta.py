@@ -2,10 +2,10 @@ from sql_alchemy import banco
 from flask import request, url_for
 from requests import post
 
-MAILGUN_DOMAIN = 'sandboxe7916b0645934d60ac2907a0c01fffb2.mailgun.org'
-MAILGUN_API_KEY = 'd902c8f2b5c406571c205e6e91a5fa52-90346a2d-e9350d51'
-FROM_TITLE = 'NO-REPLY'
-FROM_EMAIL = 'no-reply@restapi.com'
+MAILGUN_DOMAIN = ''
+MAILGUN_API_KEY = ''
+FROM_TITLE = ''
+FROM_EMAIL = ''
 
 class ModeloConta(banco.Model):
     __tablename__ = 'contas'
